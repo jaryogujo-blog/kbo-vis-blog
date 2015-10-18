@@ -70,8 +70,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1 {
-    font-size: 3.1em;
-    padding: 30px 0 0;
+    font-size: 2.3em;
+    padding: 30px 0px 10px;
     text-align: right;
     border-bottom: $green 9px solid;
     width: 100%;
@@ -91,7 +91,7 @@ h1 {
 
 h2 {
     font-size: 2em;
-    padding: 30px 0 0;
+    padding: 30px 0 10px;
     width: 90%;
     text-align: center;
     border-bottom: 5px solid $green;

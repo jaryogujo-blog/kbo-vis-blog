@@ -6,6 +6,8 @@ title: 각도를 사용한 시각화
 number: 5230
 ---
 
+수평, 수직 공간에 나열된 단위 정보들의 비교 대조를 용이하게 하기 위해 호(arc)상에 공격력, 수비력 지표를 속도계 등에서 활용되는 [Angular gauge chart](http://www.highcharts.com/demo/gauge-solid)의 방식으로 나열하였다. 둥근 호의 모양은 정보가 수평, 수직 방향으로 치우쳐 표현되는 것을 방지하여, 두 가지 방향으로 서로 다른 정보 단위들을 동시에 비교함에 있어 편차를 최소화 할 수 있을 것으로 여겨졌다. 또한 다양한 정보를 한정된 공간 상에 표현할 때 발생되는 시각적 혼잡도를 최소화 하는데에도 일조하리라 본다. 
+
 >![글리프]( http://dl.dropbox.com/s/silyx91oa97r0xj/glyph.PNG)
 
 3/4 크기의 원에 공격력과 수비력, 그리고 편차를 매핑했다.
@@ -16,18 +18,7 @@ number: 5230
 > - 색칠된 호 : 공격력 막대와 수비력 막대 사이의 영역 
 >	- 파랑 호 : 공격력 > 수비력 
 >	- 노랑 호 : 수비력 < 공격력 지표
-> - 숫자 : 시즌 순위
+> - 숫자 : 정규 시즌 순위
 > - 원 : 플레이오프 및 한국시리즈 진출 우승 여부 
 
-[info_vis]: http://www.infovis-wiki.net/index.php?title=Information_Visualization
-[visual_cue]: http://www.infovis-wiki.net/index.php?title=Visual_Cue
-[glyph]: http://www.infovis-wiki.net/index.php?title=Glyph
-[ui]: https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9A%A9%EC%9E%90_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4
-[1]: http://www.nytimes.com/newsgraphics/2013/09/28/eli-manning-milestone/
-[2]: http://www.stonesc.com/Vis08_Workshop/DVD/Reijner_submission.pdf
-[3]: http://gfzpublic.gfz-potsdam.de/pubman/item/escidoc:100075:1/component/escidoc:100074/7_GISDAY-2012_sips_pinus_bib.pdf%3Bjsessionid=554A634777B67F600FFE69D67CE829F5
-[4]: https://www.youtube.com/watch?v=OZMubJ0v32Q
-[5]: https://namu.wiki/w/KBO%20%EB%A6%AC%EA%B7%B8
-[6]: https://ko.wikipedia.org/wiki/KBO_%EB%A6%AC%EA%B7%B8
-[7]: http://www.koreabaseball.com/History/Top/Hitter.aspx
-[8]: http://www.nytimes.com/2006/04/02/sports/20060402_BONDS_GRAPHIC.html?_r=0
+위에 기술한 바와 같이 하나의 호 위에 공격력, 수비력 지표가 동시에 나열된다. 시계 방향으로 갈수록 해당 지표 값은 낮아지게 된다. 또한 공격력과 수비력의 편차를 표현할 수 있도록 두가지 지표 값이 차이나는 만큼 사이 영역을 더 높은 수치의 지표 값을 나타내는 색상으로 표현하여, 편차의 방향과 정도를 즉각적으로 파악하는 것을 가능하게 하였다. 예를 들어, 위의 예시에서는 노란색으로 표현된 공간이 넓게 나타났는데 이는 공격력이 수비력보다 훨씬 높았기 때문이다. 이외에도 해당 정규 시즌 순위와 플레이오프 및 한국시리즈 진출 우승 여부와 같은 부가적인 정보를 동시에 표현하여 다차원적인 동시 비교가 가능하도록 유도하였다.

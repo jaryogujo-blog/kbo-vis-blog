@@ -1,9 +1,10 @@
 header{
-    background:{
-        size: auto;
-        repeat: repeat;
-        image: url(../img/bg.jpg);
-    }
+    // background:{
+    //     size: auto;
+    //     repeat: repeat;
+    //     image: url(../img/bg.jpg);
+    // }
+    background-color: $green;
     height: 150px;
     text-align: center;
     position: relative;

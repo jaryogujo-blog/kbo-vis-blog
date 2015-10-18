@@ -1,6 +1,6 @@
 body{
     font:{
-        family: $roboto;
+        family: $hansans;
         weight: $light;
         size: 22px;
     }
@@ -25,7 +25,7 @@ body{
     width: calc(100% - 320px);
     position: absolute;
     right: 0;
-    
+
     @media screen and (max-width: $sidebar-collapse){
         width: 100%;
     }

@@ -143,15 +143,16 @@ h4{
     // border-bottom: 3px solid $green;
     margin: 0 auto 10px;
     line-height: 1;
-
+    /*
     &:before {
-        content: counter(h1-counter) "." counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) " ";
+        content: counter(h1-counter) "." counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) ".";
     }
+    */
 }
 
 .h4{
     counter-increment: h4-counter;
-    counter-reset: h5-counter 1;
+    counter-reset: h5-counter;
     padding-top: 30px;
 }
 
@@ -164,10 +165,11 @@ h5{
     // border-bottom: 2px solid $green;
     margin: 0 auto 9px;
     line-height: 1;
-
+    /*
     &:before {
         content: counter(h1-counter) "." counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) "." counter(h5-counter) " ";
     }
+    */
 }
 
 h6 {

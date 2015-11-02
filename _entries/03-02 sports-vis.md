@@ -13,7 +13,7 @@ number: 3200
 >
 > *image from [the article of Mike Bostock et al.](http://www.nytimes.com/newsgraphics/2013/09/28/eli-manning-milestone/)*
 
-NFL 미식 축구팀 별 쿼터백 포지션 선수들의 활동을 기간과 소속 팀을 중심으로 시각화했다. [감독으로 보는 한국 프로야구 역사](http://kbl-history.jaryogujo.io/)의 전체적인 시각화 레이아웃에 영향을 많이 준 작업으로, 단순 비교하자면 NFL 쿼터백 선수들의 활동 기록을 한국 프로야구 감독들의 재임 기록으로 대치시켰다고 이야기 할 수 있겠다.
+NFL 미식 축구팀 별 쿼터백 포지션 선수들의 활동을 기간과 소속 팀을 중심으로 시각화했다. [감독으로 보는 한국 프로야구 역사](http://kbo-history.jaryogujo.io/)의 전체적인 시각화 레이아웃에 영향을 많이 준 작업으로, 단순 비교하자면 NFL 쿼터백 선수들의 활동 기록을 한국 프로야구 감독들의 재임 기록으로 대치시켰다고 이야기 할 수 있겠다.
 
 > [배리본즈 홈런 기획기사][8]
 >
